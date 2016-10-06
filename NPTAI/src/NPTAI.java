@@ -26,4 +26,3 @@ public class NPTAI extends CKPlayer {
 		return getMove(state);
 	}
 }
-//laptop	
