@@ -6,9 +6,11 @@ public class NPTAI extends CKPlayer {
 
 	public NPTAI(byte player, BoardModel state) {
 		super(player, state);
-		teamName = "DummyAI";
+		teamName = "NPTAI";
 	}
 
+	
+	// This is were our code will go.
 	@Override
 	public Point getMove(BoardModel state) {
 		for(int i=0; i<state.getWidth(); ++i)
