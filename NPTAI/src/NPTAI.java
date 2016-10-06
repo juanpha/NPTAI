@@ -13,6 +13,7 @@ public class NPTAI extends CKPlayer {
 	// This is were our code will go.
 	@Override
 	public Point getMove(BoardModel state) {
+		// Need to rewrite this part for Sunday
 		for(int i=0; i<state.getWidth(); ++i)
 			for(int j=0; j<state.getHeight(); ++j)
 				if(state.getSpace(i, j) == 0)
